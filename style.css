@@ -1,0 +1,442 @@
+* 
+{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif ;
+  scroll-behavior: smooth;
+}
+
+/*====================================================================Header=====================================================*/
+
+header
+{
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(99, 94, 94);
+  color: #fff;
+  padding: 0 100px;
+  align-items: center;
+  border-top: solid crimson;
+  position: fixed;
+  padding: 10px;
+  width: 100%;
+  z-index: 999;
+}
+
+header:hover
+{
+  border-top:solid #1ABC ;
+}
+
+header a
+{
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 14px;
+  transition: ease 0.5s;
+}
+
+header span
+{
+  color:crimson
+}
+
+header a:hover
+{
+  color: rgb(122, 6, 6);
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+    /*======================================================Carsour================================================================*/
+
+.carsour
+{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 100px;
+  color:#fff;
+  background-image: url(Image/Logo\ YouTube.png);
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(0, 0, 0, .4);
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+}
+
+section div
+{
+  margin-left: 80px;
+}
+
+.carsour span
+{
+  color: brown;
+}
+
+section p
+{
+  color:rgb(99, 94, 94);
+  font-size: 16px;
+  width: 250px;
+  margin-top: 10px;
+}
+
+.carsour a
+{
+  color:#fff;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px;
+  background-color: brown;
+  border-radius: 10px;
+}
+
+.carsour a:hover 
+{
+  background-color: crimson;
+  font-size: 22px;
+  transform: scale(1.1);
+}
+
+    /*=======================================================services==================================================================*/
+
+.services h2 
+{
+  text-align: center;
+  margin:30px 0;
+}
+
+.services .container
+{
+  display: flex;
+  padding: 0 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.services .container .card i
+{
+  color: #040000;
+  font-size: 35px;
+}
+
+.card p
+{
+  font-size: 14px;
+}
+
+.card h3
+{
+  color: crimson;
+  font-weight: 1000;
+}
+
+.services .card
+{
+  margin-right: 20px;
+  box-shadow: 3px 3px 6px 6px #ccc;
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.services .card div
+{
+  color: #ccc;
+  font-size: 50px;
+}
+
+    /*=======================================================protofilio===============================================================*/
+
+.protofilio
+{
+  background-color:rgb(99, 94, 94);
+  padding: 30px 100px;
+  color: #fff;
+  text-align: center;
+}
+
+.protofilio h2
+{
+  color: #fff;
+  margin-bottom: 20px;
+  border-bottom: solid crimson;
+  display: inline-block;
+}
+
+.protofilio .container 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.protofilio .card 
+{
+  background-color: #fff;
+  border: solid #000;
+  border-radius: 30px;
+  margin-right: 100px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  width: 450px;
+  height: 700px;
+}
+
+.protofilio .card img
+{
+  width: 100%;
+  height: 34em;
+  object-fit: cover;
+
+}
+
+.protofilio button
+{
+  border-radius: 20px;
+  color: #fff;
+  background-color: #1ABC;
+  padding:0px 20px;
+  font-size: 15px;
+  margin-top: 20px;
+  font-weight: 300;
+  border: none;
+}
+
+.protofilio button:hover
+{
+  background-color: rgba(4, 81, 89, 0.8);
+  font-size: 22px;
+}
+
+.protofilio .card-desc p
+{
+  color: crimson;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+    /*============================================================Courses========================================================*/
+
+.courses
+{
+  padding:50px 100px;
+  display: flex;
+  align-items: center;
+}
+
+.courses p
+{
+  font-size: 18px;
+  margin-left: 120px;
+  width: 400px;
+}
+
+.courses h2
+{
+  color: crimson;
+  margin-left: 70px;
+}
+
+.courses .courses-desc
+{
+  width: 60%;
+  text-align: center;
+}
+
+.courses-img
+{
+  width: 40%;
+  margin-right: 100px;
+  border-radius:30px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 40%);
+}
+
+.courses .courses-img img
+{
+  width:100%;
+}
+
+/*===============================================================About========================================================*/
+
+.about
+{
+  padding: 50px;
+  min-height: 80vh;
+  background-image: url(Image/Facebook.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about img
+{
+  border-radius: 50%;
+  margin-right: 18px;
+  margin-bottom: 18px;
+  border: solid #fff;
+  width: 20em;
+  height: 20em;
+}
+
+    /*====================================================Footer=================================================================*/
+
+footer
+{
+  text-align: center;
+  padding: 20px;
+  background-color:rgb(99, 94, 94);
+}
+
+footer h4
+{
+  margin-top: 20px;
+  color: gold !important; 
+}
+
+    /*=============================================================UP============================================================*/
+
+.up
+{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background:crimson;
+  color: #f70b0b;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.up:hover
+{
+  background-color: #1ABC;
+}
+
+
+/*=======================================================Contact=================================================================*/
+
+
+.container-contect 
+{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Image/wp2632423.webp);
+}
+
+.container-contect form 
+{
+  width: 670px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  flex-wrap: wrap;
+}
+
+.container-contect form h1 
+{
+  color: #fff;
+  font-weight: 700;
+  line-height: 2;
+  margin-top: 20px;
+  width: 500px;
+  text-align: center;
+}
+
+.container-contect form input 
+{
+  width: 300px;
+  height: 50px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+  background: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+.container-contect form input::placeholder
+{
+  color: #fff;
+}
+
+.container-contect form #lastName,
+.container form #mobile 
+{
+  margin-left: 20px;
+}
+
+.container-contect form h4
+{
+  color: #fff;
+  font-weight: 300;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.container-contect form textarea
+{
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+  min-height: 90px;
+  max-height: 90px;
+  min-width: 620px;
+  max-width: 620px;
+}
+
+.container-contect form h4
+{
+  font-size: 20px;
+}
+
+.container-contect form #button
+{
+  border: none;
+  background: crimson;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000;
+  width: 200px;
+  height: 60px;
+  padding: 0;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.container-contect form #button:hover
+{
+  background: #000;
+  color: #fff;
+  transition: .5s ease-in-out;
+}
